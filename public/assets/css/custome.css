@@ -1,0 +1,430 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #e6e6e6; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.nav-item a:focus{
+  outline: none;
+}
+.page-item.active .page-link{
+  background-color: #2c54c6;
+  border: none;
+}
+.rounded-circle{
+  /*background-color: #ec113d !important;*/
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #000;
+  letter-spacing: 1px;
+}
+.text-primary-icon{
+  color: #000 !important;
+}
+.navbar-brand:focus{
+  outline: none;
+}
+.navbar-vertical.navbar-expand-md .navbar-nav .nav .nav-link{
+  font-size: 12px;
+}
+
+.see{
+  background-color: #411874;
+  border: none;
+}
+.see:hover{
+  background-color: #f2113b;
+}
+.nav-pills .nav-link.active{
+  background-color: #f2113b;
+}
+.sign{
+  background-color: #411874;
+  border: none;
+  width: 160px;
+  height: 50px;
+  position: relative;
+  z-index: 1;
+  border: none;
+}
+.sign:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #f2113b;
+  border-radius: 6px;
+  z-index: -1;
+  transition: all .5s;
+}
+.sign:hover:after{
+  width: 100%;
+}
+
+.bg-default{
+  background-color: #411874 !important;
+}
+.dataTables_length{
+  position: absolute;
+  left: 2%;
+  width: 100px;
+  top: 0%;
+  margin-top: 50px;
+}
+.dt-buttons{
+  border-radius: 0;
+  display: inline-table;
+}
+.dataTables_filter{
+  float: right;
+  margin-top: 9px;
+}
+.table{
+  margin-top: 20px;
+}
+.dataTables_wrapper .dt-button{
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+  background: #4e73df;;
+  width: 85px;
+  margin-bottom: 6px;
+  border-radius: 0px;
+  z-index: 1 !important;
+  padding: 10px;
+  margin-top: 3px;
+  border-radius: 8px;
+}
+button.dt-button:hover:not(.disabled){
+    background: #1169f2  !important;
+}
+.dataTables_info{
+  text-align: left;
+  padding-left: 2%;
+  float: left;
+  font-size: 14px;
+}
+.dataTables_paginate{
+  float: right;
+   padding-right: 3%;
+}
+table.dataTable.dtr-inline.collapsed > 
+tbody > tr[role="row"] > td:first-child::before, 
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before{
+  background-color: #ec113d;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
+    top: 17px;
+    left: 4px;
+    height: 14px;
+    width: 14px;
+    display: block;
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    text-align: center;
+    text-indent: 0 !important;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 14px;
+    content: '+';
+    background-color: #4e73df !important;
+    line-height: 15px;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before {
+    content: '-';
+    background-color: #d33333 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+button.dt-button:hover:not(.disabled), div.dt-button:hover:not(.disabled), a.dt-button:hover:not(.disabled) {
+    border: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    border-radius: 5px !important;
+}
+
+#datatable_ajax_filter label{
+    display: flex;
+    line-height: 32px;
+}
+/*6-september*/
+.card{
+  margin-bottom: 30px !important;
+  /*cursor: pointer;*/
+  border: none;
+}
+
+.box{
+  width: 100%;
+  height: auto;  
+  position: relative;
+}
+.box h3{
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.card-box{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  border: none;
+  background-color: #fffefe;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-box:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #411874;
+  transition: all .5s;
+  /*border-radius: 0.375rem;*/
+   border-bottom-left-radius: 0.375rem;
+   border-bottom-right-radius: 0.375rem;
+}
+.card-box:hover:after{
+  height:50%;
+}
+.card-box .h2{
+    position: relative;
+    z-index: 1;
+}
+.card-box:hover .h2{
+    color: #fff;
+}
+.card-title{
+  font-size: 12px;
+  width: 160px;
+  height: 40px;
+}
+
+.login-content{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#411874, #f2113b);
+  z-index: 1;
+}
+.login-content:after{
+  content: "";
+  position: absolute;
+  top: 17%;
+  left: 5%;
+  width: 40%;
+  height: 80%;
+  background-image: url("../images/signinbackground.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100% 90%;
+  z-index: -1;
+}
+.gif-image img{
+  width: 100%;
+}
+.login-logo{
+  padding: 20px;
+}
+.login-logo img{
+  width: 150px;
+}
+/*end-6-september*/
+
+/*7-september*/
+
+.dashboard-icon-image{
+  position: relative;
+  right: 10px;
+  width: 25px;
+}
+/*end-7-september*/
+
+.dataTables_length{
+    position: relative;
+    margin-top: 12px;
+    width: auto;
+}
+.dataTables_length label{
+    display: flex;
+}
+.card-profile-image .rounded-circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+.custom-select{
+    /*background: none !important;*/
+}
+
+
+
+.dt-button-collection{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.box-icon{
+    
+}
+.box-icon img{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 50px;
+}
+.btn-primary{
+    background-color: #446ad8;
+    border:none;
+}
+.btn-primary:hover{
+    background-color: #1169f2;
+}
+#select2-state_select-container{
+    padding: 5px 10px;
+}
+#select2-designation_id-container{
+    padding: 5px 10px;
+}
+#select2-city_select-container{
+    padding: 5px 10px;
+}
+#select2-designation-1s-container{
+    padding: 5px 10px !important;
+}
+#print_totalsum{
+    position: absolute;
+    left: 22%;
+    font-size: 14px;
+    border: 1px solid #cad1d7;
+    border-radius: 0.375rem;
+    padding: 6px 10px;
+    margin-top: 5px;
+    color: #999;
+}
+.copyright{
+    background-color: #f6f9fc;
+    padding: 10px;
+}
+.table-responsive{
+    margin-bottom: 10px;
+}
+#piechart_3d{
+    width: 900px;
+    height: 500px;
+}
+#columnchart_material{
+    width: 100%;
+    height: 500px;
+}
+.state{
+    position: relative;
+    top: 24px;    
+}
+
+@media screen and (max-width: 991px){
+
+  .dataTables_length{
+    position: relative;
+    margin-top: 0px;
+    float: none;
+  }
+  .dataTables_wrapper .dt-button{
+    width: 65px;
+  }
+  .dt-buttons{
+    text-align: left;
+    margin-left: 15px;
+  }
+  .dataTables_filter{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+  #print_totalsum{
+    position: absolute;
+    left: 33%;
+    border: 1px solid #cad1d7;
+    border-radius: 0.375rem;
+    padding: 6px 10px;
+    margin-top: 5px;
+    color: #999;
+}
+#datatable_ajax_filter label{
+    display: block;
+    line-height: 20px;
+}
+.dataTables_empty{
+    padding: 6px !important;;
+}
+.dataTables_filter{
+    float: none;
+}
+#piechart_3d{
+    width: 100% !important;
+    height: 500px;
+}
+
+@media screen and (max-width: 768px){
+  .dataTables_info{
+    text-align: left;
+    padding-left: 2%;
+    float: none;
+    font-size: 14px;
+}
+.dataTables_paginate{
+    float: left;
+   padding-right: 3%;
+ }
+ .copyright{
+   display: none;
+}
+.state{
+    position: relative;
+    top: 0px;    
+}
+
+}
+@media screen and (max-width: 576px){
+    .dt-buttons{
+        margin-left: 0;
+        text-align: none !important;
+    }
+    .dataTables_wrapper .dt-button{
+        margin-bottom: 10px;
+    }
+    .login-content::after{
+        content: "";
+        position: absolute;
+        top: 17%;
+        left: 5%;
+        width: 40%;
+        height: 50%;
+        background-image: url("../images/signinbackground.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 100% 100%;
+        z-index: -1;
+    }
+    
+}

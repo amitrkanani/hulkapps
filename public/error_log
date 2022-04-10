@@ -1,0 +1,271 @@
+[16-May-2020 08:20:10 UTC] PHP Fatal error:  Trait 'willvincent\Rateable\Rateable' not found in /home/finigooweb/manage.finigoo.com/manage/app/Restaurant.php on line 10
+[30-Oct-2020 13:20:24 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::quickTransfercallback() in /home/rppay/my.rppay.in/rppay_main/app/Http/Controllers/ApiController.php on line 893
+[30-Oct-2020 13:22:04 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::vacreditcallback() in /home/rppay/my.rppay.in/rppay_main/app/Http/Controllers/ApiController.php on line 1241
+[07-Nov-2020 10:46:01 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::upiCreditCallback() in /home/rppay/my.rppay.in/rppay_main/app/Http/Controllers/ApiController.php on line 1373
+[07-Nov-2020 10:49:36 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::upiCreditCallback() in /home/rppay/my.rppay.in/rppay_main/app/Http/Controllers/ApiController.php on line 1373
+[07-Nov-2020 10:50:00 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::upiCreditCallback() in /home/rppay/my.rppay.in/rppay_main/app/Http/Controllers/ApiController.php on line 1373
+[28-Dec-2020 14:47:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:47:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:47:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:47:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate in /home1/washiyly/paywind.in/paywind/rppay_main/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:48:58 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:48:58 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:49:01 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:49:01 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:49:41 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:49:41 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:50:09 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:50:09 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:50:51 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:50:51 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:50:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:50:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:51:24 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:51:24 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:58:33 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:58:33 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:59:04 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 14:59:04 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:53 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:53 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:57 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:57 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:10:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:11:30 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:11:30 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:11:34 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:11:34 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:21:11 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:21:11 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:21:14 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:21:14 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:21:15 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:21:15 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:24:34 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:24:34 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:25:05 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[28-Dec-2020 15:25:05 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'rppay_main'@'localhost' (using password: YES) in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:68
+Stack trace:
+#0 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(68): PDO->__construct('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#1 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'rppay_main', 'EQOq!}fYpr9E', Array)
+#2 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illumi in /home1/washiyly/paywind.in/paywind/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 664
+[05-Jan-2021 15:03:45 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\AdminController::getManageCommission() in /home/sailanifintech/public_html/sailani_main/app/Http/Controllers/AdminController.php on line 598

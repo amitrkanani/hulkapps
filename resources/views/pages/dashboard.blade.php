@@ -1,0 +1,1 @@
+@include('pages.dashboard_main')
